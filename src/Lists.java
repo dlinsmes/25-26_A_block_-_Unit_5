@@ -114,6 +114,18 @@ public class Lists {
 
 
         //make a blackjackplayer object and give the player two cards
+        BlackjackPlayer p1 = new BlackjackPlayer("moby dick");
+        System.out.println(p1);
+
+        Card c1 = new Card("spades", 1);
+
+        p1.addCard(c1);
+
+        Card c2 = new Card("diamonds", 5);
+        p1.addCard(c2);
+
+        System.out.println(p1);
+
 
     }
 }

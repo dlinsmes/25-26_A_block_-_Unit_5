@@ -23,7 +23,7 @@ public class BlackjackPlayer {
     }
 
     public String toString() {
-        return "Name: " + name + " Score: " + getScore() +
+        return "Name: " + name + "\nScore: " + getScore() +
                 "\n" + hand;
     }
 }
