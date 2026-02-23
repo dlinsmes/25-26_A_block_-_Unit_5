@@ -30,10 +30,10 @@ public class CurlerClient {
             System.out.println(c2);
 
             //same thing but with steps separated
-            String [] r = curlerData.get(i);
-            String n = r[0];
-            int p = Integer.parseInt(r[1]);
-            double w = Double.parseDouble(r[2]);
+            String [] row = curlerData.get(i);
+            String n = row[0];
+            int p = Integer.parseInt(row[1]);
+            double w = Double.parseDouble(row[2]);
             Curler c3 = new Curler(n, p, w);
         }
 
