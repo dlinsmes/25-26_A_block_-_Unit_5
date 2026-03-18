@@ -122,10 +122,6 @@ public class U5Review {
         System.out.println();
 
         //for-each loops - n is the object, NOT an index
-        for (Number n: numList) {
-            System.out.println(n.getValue());
-        }
-
         for (Number n: numList)
             System.out.print(n.getValue() + "  ");
         System.out.println();
